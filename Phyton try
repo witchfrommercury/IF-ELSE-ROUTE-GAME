@@ -1,1 +1,4 @@
+#Making username. This is the start of it.
 
+username = input("Enter username:") 
+print("Username is: " + username)
