@@ -11,4 +11,3 @@ if a == "yes":
     print("Great, let's continue!")
 else:
     print("Ok, let's stop here.")
-
