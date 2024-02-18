@@ -37,11 +37,24 @@ if b == "A":
     print("You went to the kitchen and heard a sound.")
     print(" ")
     print("A. Peak thru the ladder.")
+    print("B. Stop and went back to the bedroom.")
+    print("C. Ignore it. ")
+    print(" ")
 if b == "A":
     print(" ")
-    c = input("Answer:.")
+    c = input("Answer: ")
 if b == "B":
     print("You went to the bathroom and notice something on the mirror.")
+    print(" ")
+    print(" A. Look at the shower room. ")
+    print(" B. RUn down the house.")
+    print(" C. Look closely at it.")
 else:
-    print("PLEASE USE CAPITAL LETTERS.")
+    print("NOTE :PLEASE USE CAPITAL LETTERS.")
 
+print(" ")
+
+if c == "A":
+    print(" You died.")
+else:
+    print("NOTE :PLEASE USE CAPITAL LETTERS.")
